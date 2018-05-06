@@ -45,7 +45,7 @@ $Today = date('y:m:d',time());
                                 </div>
                                 <div class="form-group">                                     
                                     <select name="job_cate" id="basic" class="selectpicker show-tick form-control">
-                                        <option value=""> -Select Job Ctaegory- </option>
+                                        <option value=""> -Select Job Category- </option>
                                         <?php 
                     
                     $set = mysqli_query($conn, "SELECT * FROM cate");
